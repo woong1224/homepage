@@ -12,14 +12,19 @@
     <!-- 네비게이션 -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-brand">
-                <span>드라마 블로그</span>
+            <div class="nav-left">
+                <div class="nav-brand">
+                    <span>드라마 블로그</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">홈</a>
+                    <a href="#about" class="nav-link">소개</a>
+                    <a href="#review" class="nav-link">리뷰</a>
+                    <a href="#gallery" class="nav-link">갤러리</a>
+                </div>
             </div>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">홈</a>
-                <a href="#about" class="nav-link">소개</a>
-                <a href="#review" class="nav-link">리뷰</a>
-                <a href="#gallery" class="nav-link">갤러리</a>
+            <div class="nav-login">
+                <button class="login-btn">Log in</button>
             </div>
         </div>
     </nav>
@@ -177,8 +182,7 @@
 
                     <div class="image-break">
                         <div class="image-placeholder">
-                            <i class="fas fa-star"></i>
-                            <span>평점 9.2</span>
+                            <img src="image/NewsStudio.png" alt="뉴스 스튜디오">
                         </div>
                     </div>
 
@@ -222,12 +226,61 @@
                         언론이 흔들리는 시대, 말 한마디가 진실이 될 수 있는 순간을 다시 믿고 싶은 당신에게 이 작품을 진심으로 추천합니다.
                     </p>
 
-                    <div class="rating-break">
-                        <div class="rating-content">
-                            <span class="rating-label">종합 평점:</span>
-                            <span class="rating-score">★★★★★ 9.2/10</span>
-                        </div>
-                    </div>
+                                         <div class="drama-list-break">
+                         <h3 class="drama-list-title">다른 드라마 보기</h3>
+                         <div class="carousel-container">
+                             <button class="carousel-btn carousel-btn-prev">
+                                 <i class="fas fa-chevron-left"></i>
+                             </button>
+                             <div class="carousel-wrapper">
+                                 <div class="drama-carousel">
+                                     <div class="drama-item">
+                                         <div class="drama-thumbnail">
+                                             <img src="image/unnatural.png" alt="언내추럴">
+                                         </div>
+                                         <div class="drama-info">
+                                             <h4>언내추럴</h4>
+                                             <p>의학 미스터리 드라마</p>
+                                             <span class="drama-rating">평점: 9.1</span>
+                                         </div>
+                                     </div>
+                                     <div class="drama-item">
+                                         <div class="drama-thumbnail">
+                                             <img src="image/hero.jpg" alt="히어로">
+                                         </div>
+                                         <div class="drama-info">
+                                             <h4>히어로</h4>
+                                             <p>액션 스릴러 드라마</p>
+                                             <span class="drama-rating">평점: 8.9</span>
+                                         </div>
+                                     </div>
+                                     <div class="drama-item">
+                                         <div class="drama-thumbnail">
+                                             <img src="image/crisis.png" alt="크라이시스">
+                                         </div>
+                                         <div class="drama-info">
+                                             <h4>크라이시스</h4>
+                                             <p>정치 스릴러 드라마</p>
+                                             <span class="drama-rating">평점: 8.7</span>
+                                         </div>
+                                     </div>
+                                     <div class="drama-item">
+                                         <div class="drama-thumbnail">
+                                             <img src="image/thejournalist.png" alt="기자">
+                                         </div>
+                                         <div class="drama-info">
+                                             <h4>기자</h4>
+                                             <p>언론 드라마</p>
+                                             <span class="drama-rating">평점: 8.5</span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                             <button class="carousel-btn carousel-btn-next">
+                                 <i class="fas fa-chevron-right"></i>
+                             </button>
+                         </div>
+                     </div>
                 </div>
             </div>
         </article>
